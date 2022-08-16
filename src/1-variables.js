@@ -1,18 +1,18 @@
 /**
- * Variables y Constantes
+ * Variables and Constants
  */
 
-const nombre = "Aldo";
-const apellido = "Peluche";
+const name = 'Aldo'
+const lastName = 'Peluche'
 
-let valorDado = 5;
+let givenValue = 5
 
-console.log(`${nombre} ${apellido} ${valorDado}`);
+console.log(`${name} ${lastName} ${givenValue}`)
 
-// Excelente ejemplo para entender el scope de las variables en JavaScript
+// Excellent example to understand the scope of variables in JavaScript
 if (true) {
-    let valorDado = 3;
-    console.log(`Valor dado dentro del comdicional: ${valorDado}`);
+  let givenValue = 3
+  console.log(`Value given inside the conditional: ${givenValue}`)
 }
 
-console.log(`Valor dado por fuera del comdicional: ${valorDado}`);
+console.log(`Value given outside the conditional: ${givenValue}`)

@@ -1,3 +1,3 @@
 /**
- * Zona de pruebas
+ * Game zone
  */
